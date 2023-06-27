@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.nn,.Ts,.sb{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:450px){
+    .BoxExperi{
+        padding: 100px 0px 50px 0px !important;
+    }
+    .paperBox{
+        padding: 1rem !important;
+    }
+    .nn{
+        margin: 0 !important;
+    }
+}

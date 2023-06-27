@@ -1,0 +1,66 @@
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(10, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.box1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxImg{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+  flex-shrink: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.imgMaham{
+  height: 100%;
+  width: 100%;
+}
+.typoBox{
+  flex-shrink: 0;
+  max-width: 100%;
+  width: 100%;
+}
+@media screen and (min-width:920px){
+  .box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+  .boxImg{
+  flex: 0 0 auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  }
+  .imgMaham{
+    height: 100%;
+  width: 100%;
+  }
+  .typoBox{
+    flex: 0 0 auto;
+  width: 50%;
+
+  }
+}

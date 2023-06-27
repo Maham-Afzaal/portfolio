@@ -1,0 +1,10 @@
+.BoxStyling{
+    display: inline-grid;
+    gap:10px 15px;
+
+}
+.BoxStylingUL{
+    display: inline-grid;
+    gap:10px 15px;
+
+}

@@ -1,0 +1,107 @@
+.res{
+    padding: 0.375rem 0.75rem !important;
+}
+.menuBtn{
+    display: none;
+}
+
+@media screen and (max-width: 920px)    {
+.menuBtn{
+    display: block;
+}
+.boxRow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 3rem;
+    opacity: 1;
+    background-color: #F0EEED;
+}
+.boxNo{
+    display: none;
+}
+
+}
+
+.MainDiv{
+    background-color: #d6d0d1;
+}
+h1{
+    color:'blue';
+    background-color:'black';
+}
+Button{
+    background-color: pink;
+}
+.img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxShawdoe{
+    background: #ffffff00;
+    box-shadow: 0 20px 15px #000;
+    height: 1px;
+    margin-top: 40px;
+    width: 30%;
+}
+.imgUi {
+
+    height: auto;
+  
+    max-width: 100%;
+  
+}
+.PortFolioBox{
+    display: flex;
+    justify-content: center;
+}
+.PortFolioTypo{
+    border-bottom: 5px solid #673ab766;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: max-content;
+
+}
+.BoxImgPortFolio{
+    flex-shrink: 0;
+    margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    width: 100%;
+}
+.imgPortfolio{
+    box-shadow: 0 0 20px #f1f1f1;
+    cursor: pointer;
+    height: 150px;
+    margin-top: 30px;
+    transition-duration: .2s;
+    height: auto;
+    max-width: 100%;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+
+   
+}
+@media only screen and (min-width: 992px) {
+    .BoxImgPortFolio{
+   display:flex;
+   flex: 0 0 auto;
+   margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    
+  }
+.imgPortfolioBox{
+    width: 25%;
+    padding: 0.25rem;
+}}
