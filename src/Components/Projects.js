@@ -614,7 +614,7 @@ const Projects = () => {
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
-                            <Box sx={{ height: '170px', }}>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
                                 <CardMedia
                                     component="img"
                                     image={Imania}
@@ -704,7 +704,7 @@ const Projects = () => {
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://github.com/Maham-Afzaal/petco" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
-                            <Box sx={{ height: '170px', }}>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
                                 <CardMedia
                                     component="img"
                                     image={petqo}
