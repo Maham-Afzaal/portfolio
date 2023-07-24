@@ -1,10 +1,15 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material';
 import { Close } from '@mui/icons-material';
-
 const ModalComponent = ({ imageSrc, onClose }) => {
   return (
-    <Dialog open={true} onClose={onClose} maxWidth="md" sx={{
+    <Dialog open={true} onClose={onClose}sx={{
+      // '& .MuiDialog-root':{
+      //   m:'0px',
+      // },
+      '& .MuiDialog-paper':{
+        m:'0px'
+     },
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -29,7 +34,7 @@ const ModalComponent = ({ imageSrc, onClose }) => {
           <Close />
         </IconButton>
       </DialogTitle>
-      <DialogContent>
+      <DialogContent sx={{m:0,p:0,}}>
         <img src={imageSrc} alt="Image"  style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
  />
       </DialogContent>
