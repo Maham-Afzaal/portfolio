@@ -4,7 +4,7 @@ import { Box , Typography,Paper} from '@mui/material'
 const WhatIDo = () => {
   return (
     <div>
-        <Box id='wid'sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 50px 50px 50px',}}>
+        <Box id='wid'sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'80px 10px 50px 10px',sm:'100px 10px 50px 10px',md:'100px 50px 50px 50px',lg:'100px 50px 50px 50px'}}}>
             <Box>
                 <Box sx={{display:'flex',justifyContent:'center'}}>
                 <Typography variant='h4'sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',marginBottom: '70px',}}>
@@ -15,7 +15,7 @@ const WhatIDo = () => {
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',alignContent:'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography variant='p'>Actively listen to customers' requests, confirming full understanding before addressing concerns</Typography>
+                                <Typography variant='p'>Actively listen to customers requests, confirming full understanding before addressing concerns</Typography>
                         </Box>
                     </Paper>
 

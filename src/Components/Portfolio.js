@@ -28,7 +28,7 @@ const Portfolio = () => {
     setSelectedImage(null);
   };
   return (
-    <Box id='Portfolio'sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 50px 50px 50px',}}>
+    <Box id='Portfolio'sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'80px 10px 50px 10px',sm:'100px 10px 50px 10px',md:'100px 50px 50px 50px',lg:'100px 50px 50px 50px'}}}>
         <Box>
           <Box sx={{display:'flex',justifyContent:'center'}}>
           <Typography variant='h4'  className='PortFolioTypo' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Portfolio 📷</Typography>

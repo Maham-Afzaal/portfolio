@@ -12,7 +12,7 @@ const Experience = () => {
                 <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Experience 💼</Typography>
             </Box>
     <div direction={{sm:'row',lg:'column'}}>
-        <Box className='BoxStylingUL' sx={{gridTemplateColumns:{xs:'auto',sm:'auto auto',md:'auto auto',lg:'auto auto '},mx:{xs:'0.5rem',sm:'1rem',md:'2rem',lg:'3rem'},}} >
+        <Box className='BoxStylingUL' sx={{gridTemplateColumns:{xs:'auto',sm:'auto auto',md:'auto auto',lg:'auto auto '},mx:{xs:'0.5rem',sm:'0.5rem',md:'0.7rem',lg:'1rem'},}} >
         
 {/* 1st column */}
                 <Paper sx={{boxShadow: '0 0 10px #e0e0e0',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'}, justifyContent:'space-between',p:'2rem',}} className='paperBox'>
@@ -25,7 +25,7 @@ const Experience = () => {
 
                 <Box>
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Front-End Developer</Typography>
-                    <Typography variant='body1' sx={{fontSize:'small'}}>I have extensive experience working as a front-end developer at Devicon, specializing in React.js and Material-Ui(Mui). My primary responsibility was converting various designs into fully functional websites that met the specific requirements of our clients. </Typography>
+                    <Typography variant='body1' sx={{fontSize:'medium'}}>I have extensive experience working as a front-end developer at Devicon, specializing in React.js and Material-Ui(Mui). My primary responsibility was converting various designs into fully functional websites that met the specific requirements of our clients. </Typography>
 
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
                     <ul>
@@ -49,7 +49,7 @@ const Experience = () => {
 
                 <Box>
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>React Developer</Typography>
-                    <Typography sx={{fontSize:'small',}}>I worked with NyroTech as their React and NextJS Developer. Here, I worked on as an Intern on frontend application.Additionally, I provided effective solutions to address any challenges or issues encountered during the development process.</Typography>
+                    <Typography sx={{fontSize:'medium',}}>I worked with NyroTech as their React and NextJS Developer. Here, I worked on as an Intern on frontend application.Additionally, I provided effective solutions to address any challenges or issues encountered during the development process.</Typography>
 
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
                     <ul>
