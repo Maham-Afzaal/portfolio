@@ -27,7 +27,7 @@ import Energy from '../Ui/Energy.png';
 import Imania from '../TechnoImages/Imania.png';
 const Projects = () => {
     return (
-        <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'50px 20px 50px 20px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
+        <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'100px 20px 50px 20px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
         <Box>
           <Box sx={{display:'flex',justifyContent:'center'}}>
           <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Projects 💻</Typography>

@@ -11,7 +11,7 @@
     flex-shrink: 0;
     max-width: 100%;
     width: 100%;
-    margin-bottom: 9px;
+
 
 }
 .h1g{
@@ -45,7 +45,6 @@
     .AboutBox{
         flex: 0 0 auto;
         width: 50%;
-        align-items: center;
         
     }
     
