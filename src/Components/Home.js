@@ -11,7 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Propic from '../ProPic.jpg'
 const Homehamna = () => {
   return (
-    <Box sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'50px',}}>
+    <Box sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'50px 10px 50px 10px',sm:'50px 10px 50px 10px',md:'50px 50px 50px 50px',lg:'50px 50px 50px 50px'}}}>
     <Box className='box1'>
         <Box className='boxImg'>
             <Avatar alt="Remy Sharp" src={Propic} sx={{ width:{xs:220,sm:280,md:280,lg:280}, height:{xs:220,sm:280,md:280,lg:280},border:'10px solid #9c27b0',ml:'10px' }} className='imgMaham'/>

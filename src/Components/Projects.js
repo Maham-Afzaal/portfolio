@@ -18,10 +18,12 @@ import tailwind from '../TechnoImages/tailwind.svg'
 import javascript from '../TechnoImages/javascript.svg';
 import react from '../TechnoImages/react.svg';
 import mui from '../TechnoImages/mui.svg';
-import { CardActionArea } from '@mui/material';
+import { Button, CardActionArea } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Bman from '../TechnoImages/Bman.png';
+import petqo from '../TechnoImages/petqo.png'
 import Energy from '../Ui/Energy.png';
+import Imania from '../TechnoImages/Imania.png';
 const Projects = () => {
     return (
         <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 50px 50px 50px',}}>
@@ -39,7 +41,7 @@ const Projects = () => {
                                 <CardMedia
                                     component="img"
                                     image={ui9}
-                                    title="green iguana"
+                                    title="Blog Post"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -143,7 +145,7 @@ const Projects = () => {
                                 <CardMedia
                                     component="img"
                                     image={ui10}
-                                    title="green iguana"
+                                    title="ToDo-List"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -241,13 +243,13 @@ const Projects = () => {
                 </Grid>
                 {/* 3rdcol */}
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/chatbox-react" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://chatapp-c816e.web.app/" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
                             <Box sx={{ height: '170px' }}>
                                 <CardMedia
                                     component="img"
                                     image={ui11}
-                                    title="green iguana"
+                                    title="ChatApp"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -352,7 +354,7 @@ const Projects = () => {
                                 <CardMedia
                                     component="img"
                                     image={ui12}
-                                    title="green iguana"
+                                    title="PetsLover"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -456,7 +458,7 @@ const Projects = () => {
                                 <CardMedia
                                     component="img"
                                     image={Bman}
-                                    title="green iguana"
+                                    title="bman"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -525,7 +527,7 @@ const Projects = () => {
                                 <CardMedia
                                     component="img"
                                     image={Energy}
-                                    title="green iguana"
+                                    title="Energy"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -600,6 +602,184 @@ const Projects = () => {
                                         <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/petco" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height: '170px', }}>
+                                <CardMedia
+                                    component="img"
+                                    image={petqo}
+                                    title="PetQo"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    PetQo
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Pet Food Brand That Care for Your Pets
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
+
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="React.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                              
+                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="#" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height: '170px', }}>
+                                <CardMedia
+                                    component="img"
+                                    image={Imania}
+                                    title="PetQo"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Imania
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Static Site
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
+
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                              
+                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://imania.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+
 
                             </Box>
                         </CardActionArea>
