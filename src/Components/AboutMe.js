@@ -9,7 +9,7 @@ import D3 from '../D3.png';
 import './about.css';
 const AboutMe = () => {
   return (
-    <Box className='stackh' sx={{p:{xs:'100px 10px 50px 10px',sm:'100px 10px 50px 10px',md:'100px 50px 50px 50px',lg:'100px 50px 50px 50px'}}} id='About'>  
+    <Box className='stackh' sx={{p:{xs:'10px 10px 50px 10px',sm:'100px 10px 50px 10px',md:'100px 50px 50px 50px',lg:'100px 50px 50px 50px'}}} id='About'>  
 
         <Box className='imgBox'>
           <img src={gL} className='img'

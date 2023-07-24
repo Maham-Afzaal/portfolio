@@ -16,9 +16,9 @@
     justify-content: center;
 }
 @media screen and (max-width:450px){
-    .BoxExperi{
+    /* .BoxExperi{
         padding: 100px 0px 50px 0px !important;
-    }
+    } */
     .paperBox{
         padding: 1rem !important;
     }

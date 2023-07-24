@@ -7,9 +7,9 @@ import './ListStyles.css';
 import Paper from '@mui/material/Paper';
 const Experience = () => {
   return (
-    <Box id='Experience' sx={{borderbackgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 50px 50px 50px',}} className='BoxExperi'>
+    <Box id='Experience' sx={{borderbackgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'40px 10px 50px 10px',sm:'100px 10px 50px 10px',md:'100px 50px 50px 50px',lg:'100px 50px 50px 50px'}}} className='BoxExperi'>
         <Box sx={{display:'flex',justifyContent:'center'}}>
-                <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Experience 💼</Typography>
+                <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: {xs:'30px',sm:'60px',lg:'70px',xl:'70px'},}}>Experience 💼</Typography>
             </Box>
     <div direction={{sm:'row',lg:'column'}}>
         <Box className='BoxStylingUL' sx={{gridTemplateColumns:{xs:'auto',sm:'auto auto',md:'auto auto',lg:'auto auto '},mx:{xs:'0.5rem',sm:'1rem',md:'2rem',lg:'3rem'},}} >
