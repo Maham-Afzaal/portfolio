@@ -29,9 +29,9 @@ const Experience = () => {
 
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
                     <ul>
-                        <li>Suggesting the solution to the problems</li>
-                        <li>Implementing the solutions</li>
-                        <li>Making the required changes suggested by client</li>
+                        <li>Suggesting the solution to the problems.</li>
+                        <li>Implementing the solutions.</li>
+                        <li>Making the required changes suggested by client.</li>
                         <li>Testing code to identify and resolve any issues or bugs, making necessary modifications for optimal functionality.
 </li>
                         </ul>
@@ -53,12 +53,12 @@ const Experience = () => {
 
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
                     <ul>
-                        <li>Writing clean and standard code</li> 
+                        <li>Writing clean and standard code.</li> 
                         <li>Developing responsive websites that are optimized for
 various devices and screen sizes, providing an optimal
 user experience.</li>
-                        <li>Helping fellow colleagues with their problems</li>
-                        <li>Fixing any problems in previously written code</li>
+                        <li>Helping fellow colleagues with their problems.</li>
+                        <li>Fixing any problems in previously written code.</li>
                         
                     </ul>
                     </Box>
