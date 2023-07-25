@@ -37,7 +37,8 @@ const Homehamna = () => {
           </Typography></Box>
           <Box sx={{ alignItems: 'center',my:'1.5rem',}}>
           <Typography variant='h6' sx={{color:'gray',}}>
-          As a passionate Front End Developer 🚀, I have a strong focus on cutting-edge Frontend technologies. With extensive experience in building robust Web applications, my skill set includes JavaScript, ReactJS, NextJs. I thrive on pushing the boundaries of user experiences and creating intuitive, visually appealing interfaces. Let's collaborate to bring your ideas to life!
+          As a passionate Front End Developer 🚀, I have a strong focus on cutting-edge Frontend technologies. With extensive experience in building robust Web applications, my skill set includes JavaScript, ReactJS, NextJs, and various other libraries and frameworks. I thrive on pushing the boundaries of user experiences and creating intuitive, visually appealing interfaces. Let's collaborate to bring your ideas to life!
+          {/* As a passionate Front End Developer 🚀, I have a strong focus on cutting-edge Frontend technologies. With extensive experience in building robust Web applications, my skill set includes JavaScript, ReactJS, NextJs. I thrive on pushing the boundaries of user experiences and creating intuitive, visually appealing interfaces. Let's collaborate to bring your ideas to life! */}
           </Typography>
           </Box>
           <Box variant='div' display="flex" justifyContent="space-evenly" sx={{flexWrap:'wrap',gap: '10px 20px', alignItems: 'center',}} >
