@@ -603,7 +603,7 @@ const Projects = () => {
                                         <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                                <Button component='a' href='https://energy-lb.netlify.app' target='_blank' variant='contained'>Live Demo</Button>
+                                <Button component='a' href='https://energy-lb.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
 
 
                             </Box>

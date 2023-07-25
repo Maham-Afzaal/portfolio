@@ -16,7 +16,7 @@ import ui11 from '../Ui/ui11.png';
 import {useState} from 'react';
 import ModalComponent from './ModalComponent';
 
-const imageList = [ui1,ui11,ui5,ui9,ui6,ui10,ui7,ui8,ui4,];
+const imageList = [ui1,ui11,ui5,ui9,ui6,ui10,ui7,ui8,];
 const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
