@@ -35,14 +35,15 @@ const Projects = () => {
         </Box>
         <div>
             <Grid container spacing={2}>
+
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/blog-site" target="_blank" sx={{textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0',maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
-                            <Box sx={{ height: '170px' }}>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
                                 <CardMedia
                                     component="img"
-                                    image={ui9}
-                                    title="Blog Post"
+                                    image={Imania}
+                                    title="Imania"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -52,33 +53,15 @@ const Projects = () => {
                             </Box>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Next js Blog Post
+                                    Imania
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    A blog post Static Site where any article, news piece, or guide that's published section of a website.
+                                Static Site
                                 </Typography>
                             </CardContent>
                             <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
 
                             <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
-                                <Tooltip title="React" placement='top' arrow componentsProps={{
-                                    tooltip: {
-                                        sx: {
-                                            fontSize: '0.8rem',
-                                            backgroundColor: "black",
-                                        }
-                                    },
-                                    arrow: {
-                                        sx: {
-                                            color: 'black',
-
-                                        }
-                                    }
-                                }}>
-                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
-                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
-                                    </Box>
-                                </Tooltip>
                                 <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
@@ -93,28 +76,11 @@ const Projects = () => {
                                         }
                                     }
                                 }}>
-                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
                                         <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
-                                    tooltip: {
-                                        sx: {
-                                            fontSize: '0.8rem',
-                                            backgroundColor: "black",
-                                        }
-                                    },
-                                    arrow: {
-                                        sx: {
-                                            color: 'black',
-
-                                        }
-                                    }
-                                }}>
-                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
-                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
-                                    </Box>
-                                </Tooltip>
+                              
                                 <Tooltip title="Css" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
@@ -134,10 +100,32 @@ const Projects = () => {
                                     </Box>
                                 </Tooltip>
 
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://imania.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+
+
                             </Box>
                         </CardActionArea>
                     </Card>
                 </Grid>
+
                 {/* 2nd Card */}
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://github.com/Maham-Afzaal/todo-list.git" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
@@ -612,13 +600,13 @@ const Projects = () => {
                 </Grid>
 
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/blog-site" target="_blank" sx={{textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0',maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
-                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
+                            <Box sx={{ height: '170px' }}>
                                 <CardMedia
                                     component="img"
-                                    image={Imania}
-                                    title="Imania"
+                                    image={ui9}
+                                    title="Blog Post"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -628,16 +616,16 @@ const Projects = () => {
                             </Box>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Imania
+                                    Next js Blog Post
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                Static Site
+                                    A blog post Static Site where any article, news piece, or guide that's published section of a website.
                                 </Typography>
                             </CardContent>
                             <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
 
                             <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
-                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
+                                <Tooltip title="React" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
                                             fontSize: '0.8rem',
@@ -652,11 +640,10 @@ const Projects = () => {
                                     }
                                 }}>
                                     <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
-                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                              
-                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
                                             fontSize: '0.8rem',
@@ -671,10 +658,9 @@ const Projects = () => {
                                     }
                                 }}>
                                     <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
-                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-
                                 <Tooltip title="Mui" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
@@ -693,8 +679,24 @@ const Projects = () => {
                                         <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                                <Button component='a' href='https://imania.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
 
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
 
                             </Box>
                         </CardActionArea>

@@ -15,7 +15,7 @@ const WhatIDo = () => {
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',alignContent:'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography variant='p'>Actively listen to customers requests, confirming full understanding before addressing concerns</Typography>
+                                <Typography variant='p'>Actively listen to customers requests, confirming full understanding before addressing concerns.</Typography>
                         </Box>
                     </Paper>
 
@@ -24,7 +24,7 @@ const WhatIDo = () => {
                         <Box display='flex' flexDirection='row' sx={{alignItems:'center',}}>
 
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                            <Typography variant='p'>Identify issues, analyzed information and provided solutions to problems</Typography>
+                            <Typography variant='p'>Identify issues, analyzed information and provided solutions to problems.</Typography>
                         </Box>
                     </Paper>
 
@@ -37,7 +37,7 @@ const WhatIDo = () => {
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography>Convert graphic designs to usable web images using ReactJS/NextJs</Typography>
+                                <Typography>Convert graphic designs to usable web images using ReactJS/NextJs.</Typography>
                         </Box>
                     </Paper>
 
@@ -52,7 +52,7 @@ const WhatIDo = () => {
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography variant='p'>Establish presentation consistency(Cross browser compatibility) across Chrome, Safari, Firefox and other common browser interfaces</Typography>
+                                <Typography variant='p'>Establish presentation consistency(Cross browser compatibility) across Chrome, Safari, Firefox and other common browser interfaces.</Typography>
                         </Box>
                     </Paper>
 
@@ -60,14 +60,14 @@ const WhatIDo = () => {
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography variant='p'>Multi-task across multiple functions and roles to generate project results and meet deadlines and organizational expectations</Typography>
+                                <Typography variant='p'>Multi-task across multiple functions and roles to generate project results and meet deadlines and organizational expectations.</Typography>
                         </Box>
                     </Paper>
 
                     <Paper sx={{padding: '5px 15px',borderRadius:'16px',boxShadow: '0 0 10px #e0e0e0','&:hover':{backgroundColor:'#6f42c1',color:'white',}}}>
                         <Box display='flex' flexDirection='row' sx={{alignItems: 'center',}}>
                             <Box component='span' sx={{marginLeft:'10px',marginRight:'20px',}}>✔</Box>
-                                <Typography variant='p'>Code websites using HTML, CSS, JavaScript languages</Typography>
+                                <Typography variant='p'>Code websites using HTML, CSS, JavaScript languages.</Typography>
                         </Box>
                     </Paper>
 

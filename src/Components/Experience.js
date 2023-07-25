@@ -49,7 +49,7 @@ const Experience = () => {
 
                 <Box>
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>React Developer</Typography>
-                    <Typography sx={{fontSize:'medium',}}>I worked with NyroTech as their React and NextJS Developer. Here, I worked on as an Intern on frontend application.Additionally, I provided effective solutions to address any challenges or issues encountered during the development process.</Typography>
+                    <Typography sx={{fontSize:'medium',}}>I worked with NyroTech as their React and NextJS Developer. I served as an intern, primarily focusing on frontend application development. Additionally, I provided effective solutions to address any challenges or issues encountered during the development process.</Typography>
 
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
                     <ul>
