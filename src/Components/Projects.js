@@ -25,6 +25,10 @@ import Bman from '../TechnoImages/Bman.png';
 import petqo from '../TechnoImages/petqo.png'
 import Energy from '../Ui/Energy.png';
 import Imania from '../TechnoImages/Imania.png';
+import AdminDashboard from '../TechnoImages/AdminDashboard.png';
+import matteo from '../TechnoImages/matteo.png';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+
 const Projects = () => {
     return (
         <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'100px 10px 50px 10px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
@@ -56,7 +60,7 @@ const Projects = () => {
                                     Imania
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                Static Site
+                                Static and Responsive Site
                                 </Typography>
                             </CardContent>
                             <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
@@ -119,6 +123,189 @@ const Projects = () => {
                                     </Box>
                                 </Tooltip>
                                 <Button component='a' href='https://imania.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
+                                <CardMedia
+                                    component="img"
+                                    image={AdminDashboard}
+                                    title="Admin Dashboard"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Admin Dashboard
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Your central hub for managing your application.
+Take control and unleash your application's full potential.
+Comprehensive administration at your fingertips.
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
+
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="React.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                              
+                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://admin_dashboard.surge.sh' target='_blank' variant='contained'>Live Demo</Button>
+
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
+                                <CardMedia
+                                    component="img"
+                                    image={matteo}
+                                    title="Matteo Dal Masso"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                Matteo Dal Masso
+                                <MusicNoteIcon/>
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Matteo Dal Maso is an Italian symphonic and opera conductor. He is 1st prize winner of the 5th Athens International Conducting Competition and Audience.
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
+
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                              
+                                <Tooltip title="Tailwind Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={tailwind} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://matteodalmaso.netlify.app' target='_blank' variant='contained'>Live Demo</Button>
 
 
                             </Box>
@@ -230,6 +417,8 @@ const Projects = () => {
                         </CardActionArea>
                     </Card>
                 </Grid>
+
+
                 {/* 3rdcol */}
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://chatapp-c816e.web.app/" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>

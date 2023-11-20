@@ -2,6 +2,7 @@ import { Stack ,Typography} from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import gL from '../gL.gif';
+import girl from '../girl.gif';
 import { Divider } from '@mui/material';
 import D1 from '../D1.png';
 import D2 from '../D2.png';
