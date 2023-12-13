@@ -28,7 +28,7 @@ import Imania from '../TechnoImages/Imania.png';
 import AdminDashboard from '../TechnoImages/AdminDashboard.png';
 import matteo from '../TechnoImages/matteo.png';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
-
+import event from '../TechnoImages/eventPlanning.png';
 const Projects = () => {
     return (
         <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'100px 10px 50px 10px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
@@ -131,7 +131,7 @@ const Projects = () => {
                 </Grid>
 
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/admin_dashboard" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
                             <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
                                 <CardMedia
@@ -223,7 +223,7 @@ Comprehensive administration at your fingertips.
                 </Grid>
 
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/Imania" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/matteo_dal_maso" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
                             <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
                                 <CardMedia
@@ -523,7 +523,95 @@ Comprehensive administration at your fingertips.
                         </CardActionArea>
                     </Card>
                 </Grid>
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/event_planning" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height:{xs:'auto',sm:'170px'} }}>
+                                <CardMedia
+                                    component="img"
+                                    image={event}
+                                    title="Event Planning 24"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Event Planning 24
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Static and Responsive Site
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
 
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                              
+                                <Tooltip title="Tailwind Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={tailwind} width={24} height={24} alt="Tailwind" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://event-planning24.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
                 {/* 4rth col */}
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://petslover.pk/" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
