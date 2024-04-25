@@ -29,6 +29,7 @@ import AdminDashboard from '../TechnoImages/AdminDashboard.png';
 import matteo from '../TechnoImages/matteo.png';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import event from '../TechnoImages/eventPlanning.png';
+import cyber from '../TechnoImages/cyber.png';
 const Projects = () => {
     return (
         <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'100px 10px 50px 10px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
@@ -716,15 +717,14 @@ Comprehensive administration at your fingertips.
                         </CardActionArea>
                     </Card>
                 </Grid>
-
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/bman" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://cyber-sumooz.vercel.app/" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
                             <Box sx={{ height: '170px' }}>
                                 <CardMedia
                                     component="img"
-                                    image={Bman}
-                                    title="bman"
+                                    image={cyber}
+                                    title="Cyber Sumooz"
                                     sx={{
                                         width: '100%',
                                         height: '100%',
@@ -734,16 +734,16 @@ Comprehensive administration at your fingertips.
                             </Box>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    BMan WebPage
+                                    Cyber Sumooz
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    A webpage that displays the serives of BMan providers.A client requested designed based web page.  
+                                    Cyber Sumooz is a character webpage. It contain information about Poo i.e hero of cyber sumooz and other characters.
                                 </Typography>
                             </CardContent>
                             <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
 
                             <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
-                                <Tooltip title="React.Js" placement='top' arrow componentsProps={{
+                                <Tooltip title="Next.Js" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
                                             fontSize: '0.8rem',
@@ -758,10 +758,10 @@ Comprehensive administration at your fingertips.
                                     }
                                 }}>
                                     <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
-                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                        <img src={next} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                                <Tooltip title="Tailwind Css" placement='top' arrow componentsProps={{
+                                <Tooltip title="Mui" placement='top' arrow componentsProps={{
                                     tooltip: {
                                         sx: {
                                             fontSize: '0.8rem',
@@ -776,16 +776,33 @@ Comprehensive administration at your fingertips.
                                     }
                                 }}>
                                     <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
-                                        <img src={tailwind} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                        <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
+                                <Tooltip title="Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={css} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Button component='a' href='https://cyber-sumooz.vercel.app/' target='_blank' variant='contained'>Live Demo</Button>
 
                             </Box>
                         </CardActionArea>
                     </Card>
                 </Grid>
-
-
                 <Grid item lg={4} md={6} sm={12}>
                     <Card component="a" href="https://github.com/Maham-Afzaal/energy-lb" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
@@ -870,6 +887,73 @@ Comprehensive administration at your fingertips.
                                 </Tooltip>
                                 <Button component='a' href='https://energy-lb.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
 
+
+                            </Box>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+                <Grid item lg={4} md={6} sm={12}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/bman" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                        <CardActionArea>
+                            <Box sx={{ height: '170px' }}>
+                                <CardMedia
+                                    component="img"
+                                    image={Bman}
+                                    title="bman"
+                                    sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'fill',
+                                    }}
+                                />
+                            </Box>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    BMan WebPage
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                    A webpage that displays the serives of BMan providers.A client requested designed based web page.  
+                                </Typography>
+                            </CardContent>
+                            <Divider sx={{ borderTopWidth: 4, borderTopColor: '#f1f1f1', margin: '13px 0' }} />
+
+                            <Box sx={{ display: 'flex', alignItems: 'center', pl: '0.7rem', mb: '0.7rem' }}>
+                                <Tooltip title="React.Js" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px' }}>
+                                        <img src={react} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
+                                <Tooltip title="Tailwind Css" placement='top' arrow componentsProps={{
+                                    tooltip: {
+                                        sx: {
+                                            fontSize: '0.8rem',
+                                            backgroundColor: "black",
+                                        }
+                                    },
+                                    arrow: {
+                                        sx: {
+                                            color: 'black',
+
+                                        }
+                                    }
+                                }}>
+                                    <Box sx={{ marginRight: 1, border: '1px solid black', borderRadius: '4px', }}>
+                                        <img src={tailwind} width={24} height={24} alt="React" style={{ padding: '5px' }} />
+                                    </Box>
+                                </Tooltip>
 
                             </Box>
                         </CardActionArea>
