@@ -1,22 +1,22 @@
 import React from 'react'
 import { Box ,Stack} from '@mui/system';
-import { Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import Devicon from '../Devicon.jpg';
 import T from '../T.jpg';
 import './ListStyles.css';
 import Paper from '@mui/material/Paper';
 const Experience = () => {
   return (
-    <Box id='Experience' sx={{borderbackgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 50px 50px 50px',}} className='BoxExperi'>
+    <Container maxWidth='xl' id='Experience' sx={{borderbackgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',        py: { xs: "4rem", md: "5rem" },}} className='BoxExperi'>
         <Box sx={{display:'flex',justifyContent:'center'}}>
-                <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Experience 💼</Typography>
+                <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',              fontVariant:'small-caps'}}>Experience 💼</Typography>
             </Box>
     <div direction={{sm:'row',lg:'column'}}>
         <Box className='BoxStylingUL' sx={{gridTemplateColumns:{xs:'auto',sm:'auto auto',md:'auto auto',lg:'auto auto '},mx:{xs:'0.5rem',sm:'0.5rem',md:'0.7rem',lg:'1rem'},}} >
         
 {/* 1st column */}
-                <Paper sx={{boxShadow: '0 0 10px #e0e0e0',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'}, justifyContent:'space-between',p:'2rem',}} className='paperBox'>
-                <Box sx={{m:'2rem',alignItems:'center',display: 'flex',flexDirection: 'column',justifyContent: 'center',}} className='nn'>
+                <Paper sx={{boxShadow: '0 0 10px #e0e0e0',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'}, justifyContent:'space-between',p:{xs:'1rem',md:'2rem'},}} className='paperBox'>
+                <Box sx={{m:{xs:'1rem',md:'2rem'},alignItems:'center',display: 'flex',flexDirection: 'column',justifyContent: 'center',}} className='nn'>
                     <img src={Devicon} width='100px' height='100px' />
                     <Typography variant='h5'fontWeight='700' fontSize='1.25rem'>Devicon</Typography>
                     <Typography variant='h6' noWrap fontSize='small'>July 2021 - Nov 2021 </Typography>
@@ -27,7 +27,7 @@ const Experience = () => {
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Front-End Developer</Typography>
                     <Typography variant='body1' sx={{fontSize:'medium'}}>I have extensive experience working as a front-end developer at Devicon, specializing in React.js and Material-Ui(Mui). My primary responsibility was converting various designs into fully functional websites that met the specific requirements of our clients. </Typography>
 
-                    <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
+                    <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0.5rem',}}>Responsibilities</Typography>
                     <ul>
                         <li>Suggesting the solution to the problems.</li>
                         <li>Implementing the solutions.</li>
@@ -51,7 +51,7 @@ const Experience = () => {
                     <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>React Developer</Typography>
                     <Typography sx={{fontSize:'medium',}}>I worked with NyroTech as their React and NextJS Developer. I served as an intern, primarily focusing on frontend application development. Additionally, I provided effective solutions to address any challenges or issues encountered during the development process.</Typography>
 
-                    <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0',}}>Responsibilities</Typography>
+                    <Typography variant='h4' fontWeight='700' fontSize='1.25rem' sx={{lineHeight: '1.2',marginBottom: '0.5rem',marginTop: '0.5rem',}}>Responsibilities</Typography>
                     <ul>
                         <li>Writing clean and standard code.</li> 
                         <li>Developing responsive websites that are optimized for
@@ -67,7 +67,7 @@ user experience.</li>
         </Paper>
         </Box>
     </div>
-    </Box>
+    </Container>
   )
 }
 

@@ -20,7 +20,8 @@ const Homehamna = () => {
         <Box className='typoBox'> 
             <Typography variant='h3' sx={{fontFamily: ['Montserrat','sans-serif',].join(','),fontSize:{xs:'2.4rem',sm:'2.5rem',md:'4rem',lg:'4rem'}}}>Hi, I'm Maham <span class="wave">👋</span></Typography>
             <Box sx={{display:'inline-block',}} component='span'>
-            <Typography variant='h5' sx={{fontFamily: ['Montserrat','sans-serif',].join(','),lineHeight: '1.5',mb: '0.5rem',mt: '0',}}>I am A <span style={{display: 'inline-block'}}><Typewriter
+            <Typography variant='h5' sx={{
+              fontFamily: ['Montserrat','sans-serif',].join(','),lineHeight: '1.5',mb: '0.5rem',mt: '0',}}>I am A <span style={{display: 'inline-block'}}><Typewriter
                 options={{
                   autoStart:true,
                   loop:true,
