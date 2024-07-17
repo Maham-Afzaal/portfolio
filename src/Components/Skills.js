@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <Box id='skills'textAlign='center'sx={{borderbackgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:'100px 0px 50px 0px'}} >
     <Box textAlign='center'>
-          <Typography variant='h4'sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Skills 🔥</Typography>
+          <Typography variant='h4'sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',fontVariant:'small-caps'}}>Skills 🔥</Typography>
         </Box>
     <Box display='flex' justifyContent='center' alignContent='center' flexWrap='wrap' gap='1rem' className='skillBox' sx={{margin:2}}>
 

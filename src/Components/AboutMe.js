@@ -30,7 +30,7 @@ const AboutMe = () => {
 
       <Box className="AboutBox">
         <Box>
-          <h1 className="h1g" sx={{ fontVariant: "small-caps" }}>
+          <h1 className="h1g" style={{ fontVariant: "small-caps" }}>
             About Me 👩
           </h1>
           <Typography
