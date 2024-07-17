@@ -895,7 +895,7 @@ Comprehensive administration at your fingertips.
                     </Card>
                 </Grid>
                 <Grid item lg={4} md={6} sm={12}>
-                    <Card component="a" href="https://github.com/Maham-Afzaal/energy-lb" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
+                    <Card component="a" href="https://github.com/Maham-Afzaal/master_crm" target="_blank" sx={{ textDecoration: 'none', boxShadow: '0 0 10px #e0e0e0', maxWidth: { xs: '100%', sm: '100%', md: '402px', lg: '402px', xl: '402px' }, mx: { sm: '4rem', md: '0%', lg: '0%' } }}>
                         <CardActionArea>
                             <Box sx={{ height: '170px', }}>
                                 <CardMedia
@@ -976,7 +976,7 @@ Software that's powerful, not overpowering. Seamlessly connect your data, teams,
                                         <img src={mui} width={24} height={24} alt="React" style={{ padding: '5px' }} />
                                     </Box>
                                 </Tooltip>
-                                <Button component='a' href='https://energy-lb.vercel.app' target='_blank' variant='contained'>Live Demo</Button>
+                                <Button component='a' href='https://mastercrm.netlify.app/' target='_blank' variant='contained'>Live Demo</Button>
 
 
                             </Box>
