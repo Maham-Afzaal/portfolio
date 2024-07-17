@@ -19,7 +19,7 @@ import tailwind from '../TechnoImages/tailwind.svg'
 import javascript from '../TechnoImages/javascript.svg';
 import react from '../TechnoImages/react.svg';
 import mui from '../TechnoImages/mui.svg';
-import {CardActionArea } from '@mui/material';
+import {CardActionArea, Container } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Bman from '../TechnoImages/Bman.png';
 import petqo from '../TechnoImages/petqo.png'
@@ -33,10 +33,15 @@ import cyber from '../TechnoImages/cyber.png';
 import masterCrm from '../TechnoImages/masterCrm.png';
 const Projects = () => {
     return (
-        <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',p:{xs:'100px 10px 50px 10px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}}}>
+        <Box id='Projects' sx={{backgroundColor: '#fcfcfc',boxShadow: '0 0 10px #e0e0e0',
+            py: {xs:"4rem",md:'5rem'},
+            // p:{xs:'100px 10px 50px 10px',sm:'100px 20px 50px 20px',lg:'100px 50px 50px 50px',xl:'100px 50px 50px 50px'}
+    }}
+        >
+            <Container maxWidth='xl'>
         <Box>
           <Box sx={{display:'flex',justifyContent:'center'}}>
-          <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',}}>Projects 💻</Typography>
+          <Typography variant='h4' sx={{fontWeight: 'bold',borderBottom:'5px solid #673ab766',display:'inline-block',marginBottom: '70px',fontVariant:'small-caps'}}>Projects 💻</Typography>
         </Box>
         </Box>
         <div>
@@ -1243,6 +1248,7 @@ Software that's powerful, not overpowering. Seamlessly connect your data, teams,
                 </Grid>
             </Grid>
         </div>
+        </Container>
         </Box>
     )
 }
