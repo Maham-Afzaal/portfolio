@@ -31,6 +31,7 @@ import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import event from "../TechnoImages/eventPlanning.png";
 import cyber from "../TechnoImages/cyber.png";
 import masterCrm from "../TechnoImages/masterCrm.png";
+import avanteHomes from "../TechnoImages/avanteHomes.png";
 
 const ToolTipIcon = ({ title, image }) => (
   <Tooltip
@@ -94,6 +95,19 @@ const projects = [
   },
   {
     id: 3,
+    title: "Avante Homes",
+    image: avanteHomes,
+    description:
+    "At Avante Homes, we let builders focus on creating exceptional homes while we bridge the gap between client vision and builder expertise.",
+    link: "https://github.com/Maham-Afzaal/avante-homes",
+    liveDemo: "https://avante-homes-phi.vercel.app/home-design",
+    tools: [
+      { title: "Next.Js", image: next },
+      { title: "Mui", image: mui },
+    ],
+  },
+  {
+    id: 4,
     title: "Matteo Dal Masso",
     image: matteo,
     description:
@@ -107,21 +121,21 @@ const projects = [
     ],
   },
   {
-    id: 4,
-    href: "https://github.com/Maham-Afzaal/event_planning",
+    id: 5,
     image: event,
     title: "Event Planning 24",
     description: "Static and Responsive Site",
+    link:"https://github.com/Maham-Afzaal/event_planning",
+    liveDemo: "https://event-planning24.vercel.app",
     tools: [
       { title: "Next.Js", image: next },
       { title: "Tailwind Css", image: tailwind },
       { title: "Mui", image: mui },
     ],
-    liveDemo: "https://event-planning24.vercel.app",
   },
   {
-    id: 5,
-    href: "https://github.com/Maham-Afzaal/blog-site",
+    id: 6,
+    link: "https://github.com/Maham-Afzaal/blog-site",
     image: ui9,
     title: "Next js Blog Post",
     description:
@@ -135,8 +149,8 @@ const projects = [
     liveDemo: "https://blog-site-seven-iota.vercel.app",
   },
   {
-    id: 6,
-    href: "https://cyber-sumooz.vercel.app/",
+    id: 7,
+    link: "https://cyber-sumooz.vercel.app/",
     image: cyber,
     title: "Cyber Sumooz",
     description:
@@ -149,8 +163,8 @@ const projects = [
     liveDemo: "https://cyber-sumooz.vercel.app/",
   },
   {
-    id: 7,
-    href: "https://github.com/Maham-Afzaal/energy-lb",
+    id: 8,
+    link: "https://github.com/Maham-Afzaal/energy-lb",
     image: Energy,
     title: "Lb Energy",
     description:
@@ -163,11 +177,12 @@ const projects = [
     liveDemo: "https://energy-lb.vercel.app",
   },
   {
+    id: 9,
     title: "ToDo-List App",
     description:
       "A to-do list that helps individuals or teams keep track of tasks and activities they need to complete.",
     image: ui10,
-    href: "https://github.com/Maham-Afzaal/todo-list.git",
+    link: "https://github.com/Maham-Afzaal/todo-list.git",
     liveDemo: null, // Replace with actual link if available
     tools: [
       { title: "React", image: react },
@@ -177,11 +192,12 @@ const projects = [
     ],
   },
   {
+    id: 10,
     title: "Chat WebApp",
     description:
       "A Web App that enables universal communication among individuals.",
     image: ui11,
-    href: "https://chatapp-c816e.web.app/",
+    link: "https://github.com/Maham-Afzaal/chatbox-react",
     liveDemo: "https://chatapp-c816e.web.app/", // Replace with actual link if available
     tools: [
       { title: "React", image: react },
@@ -191,7 +207,7 @@ const projects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Master Crm",
     description:
       "Software that's powerful, not overpowering. Seamlessly connect your data, teams, and customers on one CRM platform that grows with your business",
@@ -205,7 +221,7 @@ const projects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "BMan WebPage",
     description:
       "A webpage that displays the services of BMan providers. A client requested designed-based web page.",
@@ -217,7 +233,7 @@ const projects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
 
     title: "PetQo",
     description: "Pet Food Brand That Care for Your Pets",
@@ -231,7 +247,7 @@ const projects = [
   },
 
   {
-    id: 13,
+    id: 14,
 
     title: "PETSLOVER.PK",
     description:
@@ -279,7 +295,7 @@ const Projects = () => {
               <Grid item lg={4} md={6} sm={12}>
                 <Card
                   component="a"
-                  href="https://github.com/Maham-Afzaal/Imania"
+                  href={proj.link}
                   target="_blank"
                   sx={{
                     height:'100%',
